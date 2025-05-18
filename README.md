@@ -30,56 +30,54 @@
 
 ## 📂 Project Structure
 
-'''plaintext
-Weight_Tracking_Dashboard/
+```plaintext
+weight-tracking-dashboard/
 ├── .bolt/
-│ └── config.json
-│ └── promt
-├── public/
-│ └── index.html
+│   ├── config.json
+│   └── promt
 ├── src/
-│ ├── components/
-│ │ ├── calculators/
-│ │ │ └── BMICalculator.tsx
-│ │ ├── charts/
-│ │ │ └── WeightChart.tsx
-│ │ ├── forms/
-│ │ │ └── WeightForm.tsx
-│ │ ├── goals/
-│ │ │ └── GoalProgress.tsx
-│ │ ├── layout/
-│ │ │ └── Header.tsx
-│ │ ├── stats/
-│ │ │ └── WeightStats.tsx
-│ │ ├── ui/
-│ │ │ ├── Button.tsx
-│ │ │ ├── DashboardCard.tsx
-│ │ │ └── LoadingState.tsx
-│ │ ├── weight/
-│ │ │ └── WeightHistory.tsx
-│ │ └── Dashboard.tsx
-│ ├── context/
-│ │ └── WeightContext.tsx
-│ ├── pages/
-│ │ ├── Reports.tsx
-│ │ ├── Settings.tsx
-│ │ └── ShareProgress.tsx
-│ ├── App.tsx
-│ ├── index.css
-│ ├── main.tsx
-│ └── vite-env.d.ts
+│   ├── components/
+│   │   ├── calculators/
+│   │   │   └── BMICalculator.tsx
+│   │   ├── charts/
+│   │   │   └── WeightChart.tsx
+│   │   ├── forms/
+│   │   │   └── WeightForm.tsx
+│   │   ├── goals/
+│   │   │   └── GoalProgress.tsx
+│   │   ├── layout/
+│   │   │   └── Header.tsx
+│   │   ├── stats/
+│   │   │   └── WeightStats.tsx
+│   │   ├── ui/
+│   │   │   ├── Button.tsx
+│   │   │   ├── DashboardCard.tsx
+│   │   │   └── LoadingState.tsx
+│   │   ├── weight/
+│   │   │   └── WeightHistory.tsx
+│   │   └── Dashboard.tsx
+│   ├── context/
+│   │   └── WeightContext.tsx
+│   ├── pages/
+│   │   ├── Reports.tsx
+│   │   ├── Settings.tsx
+│   │   └── ShareProgress.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
-├── package.json
+├── index.html
 ├── package-lock.json
+├── package.json
 ├── postcss.config.js
 ├── tailwind.config.js
-├── tsconfig.json
 ├── tsconfig.app.json
+├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
-
 
 ---
 
