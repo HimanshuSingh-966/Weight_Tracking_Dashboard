@@ -27,6 +27,26 @@
 - **Netlify**: Hosting and continuous deployment of the application.
 
 ---
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** and **npm** installed.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/HimanshuSingh-966/weight-tracking-dashboard.git
+2. **Install dependencies:**:
+   ```bash
+   npm install
+3. **Start the development server:**
+   ```bash
+   npm run dev
+4. **Open http://localhost to view the app.**
+
+---
 
 ## 📂 Project Structure
 
@@ -81,22 +101,4 @@ weight-tracking-dashboard/
 
 ---
 
-## 🧑‍💻 Getting Started
-
-### Prerequisites
-
-Ensure you have **Node.js** and **npm** installed.
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/HimanshuSingh-966/weight-tracking-dashboard.git
-2. **Install dependencies:**:
-   ```bash
-   npm install
-3. **Start the development server:**
-   ```bash
-   npm run dev
-4. **Open http://localhost to view the app.**
 
