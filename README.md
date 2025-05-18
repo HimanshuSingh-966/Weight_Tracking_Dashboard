@@ -29,6 +29,9 @@
 ---
 
 ## 📂 Project Structure
+
+'''plaintext
+Weight_Tracking_Dashboard/
 ├── .bolt/
 │ └── config.json
 │ └── promt
