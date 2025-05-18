@@ -6,13 +6,16 @@
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-- **Effortless Weight Logging**: Quickly input your daily weight entries with ease.
-- **Interactive Visualizations**: Monitor your progress through dynamic charts that reflect your weight trends.
-- **Responsive Design**: Seamless experience across desktops, tablets, and mobile devices.
-- **Data Privacy**: Your data is stored locally in your browser, ensuring complete privacy without external storage.
-- **No Account Required**: Start tracking immediately without the need for sign-ups or logins.
+- 📅 Add and view daily weight logs
+- 📊 Visualize progress through dynamic charts
+- 🎯 Set and track weight goals
+- 📉 Calculate BMI and analyze health trends
+- ⚙️ Customizable settings for weight units and more
+- 📤 Share progress reports
+- ⚡ Blazing fast with Vite, fully responsive design
+
 
 ---
 
@@ -26,65 +29,73 @@
 ---
 
 ## 📂 Project Structure
-├── .bolt
-  └── config.json
-  └── promt
-├── src
-  └── components
-    └── calculators
-      └── BMICalculator.tsx
-    └── charts
-      └── WeightChart.tsx
-    └── forms
-      └── WeightForm.tsx
-    └── goals
-      └── GoalProgress.tsx
-    └── layout
-      └── Header.tsx
-    └── stats
-      └── WeightStats.tsx
-    └── ui
-      └── Button.tsx
-      └── DashboardCard.tsx
-      └── LoadingState.tsx
-    └── weight
-      └── WeightHistory.tsx
-    └── Dashboard.tsx
-  └── context
-    └── WeightContext.tsx
-  └── pages
-    └── Reports.tsx
-    └── Settings.tsx
-    └── ShareProgress.tsx
-  └── App.tsx
-  └── index.css
-  └── main.tsx
-  └── vite-env.d.ts
+├── .bolt/
+│ └── config.json
+│ └── promt
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── calculators/
+│ │ │ └── BMICalculator.tsx
+│ │ ├── charts/
+│ │ │ └── WeightChart.tsx
+│ │ ├── forms/
+│ │ │ └── WeightForm.tsx
+│ │ ├── goals/
+│ │ │ └── GoalProgress.tsx
+│ │ ├── layout/
+│ │ │ └── Header.tsx
+│ │ ├── stats/
+│ │ │ └── WeightStats.tsx
+│ │ ├── ui/
+│ │ │ ├── Button.tsx
+│ │ │ ├── DashboardCard.tsx
+│ │ │ └── LoadingState.tsx
+│ │ ├── weight/
+│ │ │ └── WeightHistory.tsx
+│ │ └── Dashboard.tsx
+│ ├── context/
+│ │ └── WeightContext.tsx
+│ ├── pages/
+│ │ ├── Reports.tsx
+│ │ ├── Settings.tsx
+│ │ └── ShareProgress.tsx
+│ ├── App.tsx
+│ ├── index.css
+│ ├── main.tsx
+│ └── vite-env.d.ts
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
-├── index.html
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── postcss.config.js
 ├── tailwind.config.js
-├── tsconfig.app.json
 ├── tsconfig.json
+├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
 
 
-
 ---
 
-## 🚀 Getting Started
+## 🧑‍💻 Getting Started
 
-To run the project locally:
+### Prerequisites
+
+Ensure you have **Node.js** and **npm** installed.
+
+### Installation
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/HimanshuSingh-966/weight-tracking-dashboard.git
-2. **Navigate to the project directory:**:
+2. **Install dependencies:**:
    ```bash
-   cd weight-tracking-dashboard
+   npm install
+3. **Start the development server:**
+   ```bash
+   npm run dev
+4. **Open http://localhost to view the app.**
 
